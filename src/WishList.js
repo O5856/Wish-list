@@ -27,9 +27,7 @@ export class WishList extends Component{
     }
 
     deleteItem(){
-        let listArray = this.state.wishlist;
         this.setState({ wishlist: []})
-        
     }
 
     onFormSubmit(e) {
