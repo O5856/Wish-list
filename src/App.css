@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.crossed {
+  text-decoration: line-through 2px red;
+  -webkit-text-decoration-line: line-through;
+  -webkit-text-decoration-color: red;
+  -webkit-text-decoration-thickness: 2px;
+}
+body{
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+  background-image: url('splash.jpg');
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+
 }
 
-.App-link {
-  color: #61dafb;
+.formStyle{
+  margin-top:  10vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  list-style: none;
+}
+
+.listItem {
+  font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+input {
+  padding: 15px;
+  border: none;
+  width: 270px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.btn {
+  border: none;
+  padding: 15px;
+  width: 300px;
+  color: rgb(255, 255, 255);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.btnOne {
+  margin-top: 10px;
+}
+
+.btnTwo {
+  margin-top: 20px;
+}
+
+.btnColorOne {
+  background-color: rgb(170, 252, 197);
+}
+
+.btnColorTwo {
+  background-color: rgb(255, 102, 184);
 }
